@@ -32,7 +32,7 @@ enemyx=[]
 enemyy=[]
 enemy_xchange=[]
 enemy_ychange=[]
-number_of_enemy=6
+number_of_enemy=10
 for _i in range(number_of_enemy):
     enemy_image.append(pygame.image.load("enemy(1).png"))
     enemyx.append(random.randint(0,screen_width-64))
