@@ -80,7 +80,7 @@ def is_collision(enemyx,enemyy,bullet_x,bullet_y):
 running=True
 while running:
     screen.fill((0,0,0))
-    screen.blit(pygame.image.load("background (1).png"),(0,0))
+    screen.blit(pygame.image.load("download (1).jpeg"),(0,0))
 for event in pygame.event.get():
     if event.type==pygame.QUIT:
         running=False
